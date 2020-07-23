@@ -140,7 +140,7 @@ li {
 	text-align: center;
 	background-color: var(--secondary-text-color);
 }
-.hero > .conteiners {
+.hero {
 	padding-top: 200px;
 	padding-bottom: 200px;
 }
@@ -159,7 +159,7 @@ li {
 	text-transform: uppercase;
 }
 /* наши особенности*/
-.features .conteiners {
+.features {
 	padding-top: 94px;
 }
 /*наши особенности - список*/
@@ -199,7 +199,7 @@ li {
 }
 
 /*чем мы занимаемся*/
-.work .conteiners {
+.work {
 	padding-top: 94px;
 	padding-bottom: 94px;
 }
@@ -233,11 +233,10 @@ li {
 /*наша команда*/
 .team {
 	background-color: #f5f4fa;
-}
-.team .conteiners {
 	padding-top: 94px;
 	padding-bottom: 94px;
 }
+
 /*команда заголовок*/
 .team .title {
 	margin-bottom: 50px;
@@ -284,7 +283,7 @@ li {
 }
 
 /* клиенты */
-.client .conteiners {
+.client {
 	padding-top: 94px;
 	padding-bottom: 94px;
 }
@@ -298,8 +297,22 @@ li {
 	display: flex;
 	justify-content: space-between;
 }
+
 .client .item:not(:last-child) {
 	margin-right: 30px;
+}
+
+.client .item {
+	border: 1px solid grey;
+	width: 270px;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	border-radius: 4px;
+}
+.client img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 .client .logo:hover,
 .client .logo:focus {
@@ -368,7 +381,7 @@ li {
 /* ПОРТФОЛИО */
 
 /*портфолио фильтры*/
-.filters .conteiners {
+.filters {
 	padding-top: 94px;
 	padding-bottom: 50px;
 }
@@ -398,7 +411,7 @@ li {
 }
 
 /*портфолио работ*/
-.projects .conteiners {
+.projects {
 	padding-bottom: 94px;
 }
 
